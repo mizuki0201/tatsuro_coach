@@ -188,10 +188,36 @@ a.scroll {
   margin-left: 30px;
 }
 
+/* snsアイコン */
 .sns {
   width: 80%;
+  margin: 50px auto; 
+  display: flex;
+  justify-content: center;
 }
 
+.sns-icon {
+  margin: 0 15px;
+}
+
+.fa-facebook-square {
+  color: #305097;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #CF2E92;
+  color: #ff58db;
+}
+
+.fa-youtube {
+  color: #ED0A0A;
+}
+
+/* 体験者の声 */
 .experiencer {
   width: 80%;
   margin: 0 auto;
