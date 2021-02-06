@@ -1,0 +1,234 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.scroll {
+  color: white;
+}
+
+/* ヘッダー */
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1E73BD;
+  position: fixed;
+  z-index: 1;
+}
+
+.top-logo {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  line-height: 70px;
+  margin-left: 15px;
+}
+
+.nav-lists {
+  height: 70px;
+  display: flex;
+  padding-right: 50px;
+}
+
+.nav-list {
+  color: white;
+  line-height: 70px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/* トップ画像とトップの文言 */
+.wrapper {
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.top {
+  width: 100%;
+}
+
+.top-image {
+  background-color: #1E73BD;
+  width: 100%;
+  vertical-align: top;
+}
+
+.top-sentences {
+  background-color: #1E73BD;
+  width: 100%;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.sentence-margin-bottom {
+  margin-bottom: 40px;
+}
+
+.top-sentences:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 60px 50vw 0 50vw;
+  border-color: #1E73BD transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.font-green {
+  color: #50DD6F;
+}
+
+.line {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.line-sentences {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.diagonal-left {
+  width: 15%;
+  height: 150px;
+  background: linear-gradient(45deg, transparent, transparent 49%, black 49%, black 51%, transparent 51%, transparent);
+}
+
+.diagonal-right {
+  width: 15%;
+  height: 150px;
+  background: linear-gradient(135deg, transparent, transparent 49%, black 49%, black 51%, transparent 51%, transparent);
+}
+
+.line-sentence {
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.sub-line-sentence {
+  font-size: 24px;
+}
+
+.main-line-sentence {
+  font-size: 45px;
+  color: #ED0A0A;
+  font-weight: bold;
+}
+
+.line-button {
+  width: 90%;
+  margin: 0 auto;
+  height: 100px;
+  background-color: #07C230;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.line-link {
+  width: 100%;
+  line-height: 100px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 自己紹介 */
+.profile {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.profile-title {
+  width: 100%;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: 70px 0 30px;
+}
+
+.profile-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-image {
+  width: 45%;
+  height: 45%;
+}
+
+.profile-text {
+  width: 45%;
+  background-color: #FCF9F9;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.sns {
+  width: 80%;
+}
+
+.experiencer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.experiencer-title {
+  width: 100%;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin: 70px 0 30px;
+}
+
+.experiencer-contents {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.experiencer-contents:nth-child(1) {
+  margin-right: 30px;
+}
+
+.experiencer-content {
+  width: 45%;
+}
+
+.experiencer-content-text {
+  padding: 30px;
+  background-color: #FCF9F9;
+}
+
+/* フッター */
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #1E73BD;
+  margin-top: 70px;
+}
